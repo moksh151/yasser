@@ -1,0 +1,615 @@
+.icon{
+    text-align: right;
+}
+section .icon p{
+    text-align: center;
+    margin: -21px;  px;
+    font-size: 30px;
+    color: darkslategray ;
+} 
+
+.nav-link  .nav-list{
+    display: none;
+    position: absolute;
+    top: 60px;
+    right:20px ;
+}
+#droplist{
+    display: none;
+}
+.nav-link label{
+    margin: auto;
+    
+    border-radius: 5px
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.nav-link label span{
+    width: 30px;
+    height: 3px;
+    background-color: #a56767;
+    margin: 5px 0;
+    display: block;
+}
+#droplist:checked ~ .nav-list{
+    display: block;
+    background:rgba(0, 0, 0, .5);
+    width: 1100px;
+    height: 600px;
+    
+    
+} 
+.nav-list li{
+    list-style: none;
+ text-align: center;
+    margin-top: 20px;
+
+}
+.nav-list li a{
+    text-decoration: none;
+    color: #fff;
+   
+}
+.nav-list li  :hover{
+    color: firebrick;
+}
+
+
+.sahm{
+    position: absolute;
+    top: 50%;
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.sahm li{
+    list-style: none;
+    width: 80px;
+    height: 80px;
+    background: #262626;
+    margin: 0 10px;
+    border-radius: 50%;
+    transition: .5s;
+}
+.sahm li:hover{
+    background-color: crimson;
+}
+
+.sahm li span {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 4px solid#fff;
+    transition: .5s;
+ }
+.sahm  li.next  span{
+    top: 35%;
+    right: 3%;
+    transform: translate(0%) rotate(-45deg);
+    border-left: none;
+    border-top: none;
+}
+.sahm  li.next:hover  span{
+    right: 1%;
+}
+
+.sahm li.next span:before{
+content: '';
+position: absolute;
+width: 38px;
+height: 4px;
+background: #fff;
+transform-origin: right;
+transform: rotate(45deg) translate(0px,25px) scalex(0);
+transition: .5s;
+}
+.sahm  li.next:hover span:before{
+    transform: rotate(45deg) translate(0px,25px) scalex(1);
+}
+.sahm .next{
+    margin-left: 950px;
+}
+
+
+.sahm  li.prev  span{
+    top: 35%;
+    left: 3%;
+    transform: translate(0%) rotate(-45deg);
+    border-right: none;
+    border-bottom: none;
+}
+.sahm  li.prev:hover  span{
+    left: 1%;
+}
+
+
+
+.sahm li.prev  span:before{
+content: '';
+position: absolute;
+width: 38px;
+height: 4px;
+background: #fff;
+transform-origin: left;
+transform: rotate(45deg) translate(-2px,-1px) scalex(0);
+transition: .5s;
+}
+.sahm  li.prev:hover  span:before{
+    transform: rotate(45deg) translate(-2px,-1px) scalex(1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.big #img1{
+    
+    height: 422px;
+    margin-top:-83px;
+    
+}
+.big #img2{
+    width: 236px;
+    height: 238px;
+    margin-left: 600px;
+margin-top: -295px;
+}
+ .big h1 {
+   text-align: center;
+   margin-bottom: 337px;
+   margin-top: -315px;
+   font-size: 50px;
+   color: darkslategray ;
+}
+.big{
+    border: 2px solid lightblue;
+margin: 130px;
+    height: 281px;
+    padding: 60px;
+    
+}
+
+.big li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.big ul {
+    position: absolute;
+    top: 465px;
+    left: 300px;
+    display: flex;
+}
+.big  li .b{
+    background-color: darkslategray;
+    color: #fff;
+    padding: 8px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-left: 80px;
+}
+
+.big  li .d {
+    color: #fff;
+    text-decoration: none;
+    background-color: rgb(125,10,12);
+    padding: 8px 30px;
+    border-radius: 8px;
+    
+    margin: 47px;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.big  li .d:hover {
+    background-color: darkslategray;
+    color: rgb(125,10,12);
+    border: 2px rgba(1, 3, 17, 0.656) solid;
+}
+.list{
+    margin-left: 50px;
+    background-color: darkslategrey;
+    height: 50px;
+} 
+.list ul{
+    list-style: none;
+
+}
+.list li{
+    display: inline-block;
+    color:#fff;
+    margin-left: 15px;
+    margin-top: 15px;
+    font-size:15 px;
+}
+.list  .c{
+    font-size:20px
+}
+.list li:hover{
+    color: darkred;
+}
+
+
+.mobile  ul{
+    list-style: none;
+}
+.mobile li{
+    display: inline-block;
+    margin-left: 10px;
+}
+.mobile button{
+    text-decoration: none;
+   margin-left: 10px;
+    color: #fff;
+    font-size: 10px;
+    background-color: firebrick;
+
+}
+
+.mobile h1{
+    margin-left: 100px;
+}
+.mobile img{
+    margin-left: 90px;
+    height: 190px;
+}
+.mobile  button:hover{
+     background-color: rgb(20, 16, 16);
+}
+.mobile{
+    border: 1px solid lightblue;
+    width: 330px;
+}
+
+
+.watch  ul{
+    list-style: none;
+}
+.watch li{
+    display: inline-block;
+    margin-left: 10px;
+}
+.watch button{
+    text-decoration: none;
+   margin-left: 10px;
+    color: #fff;
+    font-size: 10px;
+    background-color: firebrick;
+}
+.watch button:hover{
+ background-color:rgb(20, 16, 16) ;
+}
+.watch h1{
+    margin-left: 100px;
+}
+.watch img{
+    margin-left: 90px;
+    height: 190px;
+}
+.watch{
+    border: 1px solid lightblue;
+    width: 330px;
+    margin-left: 345px;
+    margin-top: -357px;
+}
+
+.camera  ul{
+    list-style: none;
+}
+.camera li{
+    display: inline-block;
+    margin-left: 10px;
+}
+.camera button{
+    text-decoration: none;
+   margin-left: 10px;
+    color: #fff;
+    font-size: 10px;
+    background-color: firebrick;
+}
+.camera button:hover{
+ background-color:rgb(20, 16, 16) ;
+}
+.camera h1{
+    margin-left: 100px;
+}
+.camera img{
+    margin-left: 40px;
+    height: 190px;
+}
+.camera{
+    border: 1px solid lightblue;
+    width: 330px;
+    
+    margin-left: 690px;
+    margin-top: -358px;
+}
+.p h1{
+    text-align: center;
+    
+   color: rgb(5, 12, 12) ;
+}
+.computer img{
+    margin: 25px;
+    height: 170px;
+    margin-left: 65px;
+}
+.computer h3{
+    margin-left: 72px;
+    color: darkslategray ;
+}
+.computer p{
+    word-spacing: 10px;
+    margin-left: 52px;
+}
+.computer p .span1 {
+    font-size: 16px;
+    color: firebrick;
+}
+.computer p span{
+    font-size: 12px;
+}
+.computer button {
+   
+    margin-left: 100px;
+    background-color:  firebrick;
+    color: #fff;
+}
+.computer button:hover{
+     background-color: black;
+}
+
+
+.laptop{
+    margin-left: 265px;
+    margin-top: -337px;
+}
+.laptop img{
+    margin: 25px;
+    height: 170px;
+    margin-left: 65px;
+}
+.laptop h3{
+    margin-left: 150px;
+    color: darkslategray ;
+}
+.laptop p{
+    word-spacing: 10px;
+    margin-left: 127px;
+}
+.laptop p .span1 {
+    font-size: 16px;
+    color: firebrick;
+}
+.laptop p span{
+    font-size: 12px;
+}
+.laptop button {
+   
+    margin-left: 150px;
+    background-color:  firebrick;
+    color: #fff;
+}
+.laptop button:hover{
+     background-color: black;
+}
+
+
+.macos{
+    margin-left: 615px;
+    margin-top: -337px;
+}
+.macos img{
+    margin: 25px;
+    height: 170px;
+    margin-left: 65px;
+}
+.macos h3{
+    margin-left: 150px;
+    color: darkslategray ;
+}
+.macos p{
+    word-spacing: 10px;
+    margin-left: 127px;
+}
+.macos p .span1 {
+    font-size: 16px;
+    color: firebrick;
+}
+.macos p span{
+    font-size: 12px;
+}
+.macos button {
+   
+    margin-left: 150px;
+    background-color:  firebrick;
+    color: #fff;
+}
+.macos button:hover{
+     background-color: black;
+}
+.computers{
+    border: 1px solid lightblue;
+    height: 360px;
+}
+.mans img{
+    width: 400px;
+    height: 190px;
+    margin-left:653px;
+    margin-top: 92px;
+}
+.mans h1{
+    margin-top: -235px;
+}
+.mans .h{
+    margin-top: 20px;
+}
+.mans p{
+    margin-top: 40px;
+}
+ .mans button{
+    color: #fff;
+    background-color:  firebrick;
+ }
+
+.mans button:hover{
+   background-color: black;
+}
+.mans{
+    border: 1px solid lightblue;
+    height: 258px;
+    margin: -8px;
+    padding: 25px;
+    
+}
+
+.womans h2{
+    text-align: center;
+}
+.womans img{
+    
+  width: 250px;
+    height: 220px;
+    margin-left: 250px;
+    margin-top: -213px;
+
+}
+.womans p{
+    font-size: 30px;
+    margin-left: 200px;
+}
+.womans button{
+    color: #fff;
+    background-color:  firebrick;
+    margin-left: 200px;
+}
+.womans button:hover{
+    background-color: black;
+}
+
+header .acon{
+    margin-left: 740px;
+    font-size: 30px;
+    color: #fff;
+    margin-top: -67px;
+}
+header  .h1{
+    margin-top: 90px;
+    margin-left: 100px;
+    font-size: 27px;
+    color: #fff;
+}
+
+header div .about{
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 55px;
+    color: #fff;
+}
+header div .about .a{
+    font-size: 30px;
+    
+}
+
+header div .menu{
+    list-style: none;
+    margin-left: 330px;
+    margin-top: -136px;
+    color: #fff;
+}
+header div .menu .m{
+    font-size: 30px;
+    
+}
+header div .link{
+    list-style: none;
+    margin-left: 500px;
+    margin-top: -136px;
+    color: #fff;
+}
+header div .link .u{
+    font-size: 30px;
+    
+}
+header div .contact{
+    list-style: none;
+    margin-left: 750px;
+    margin-top: -136px;
+    color: #fff;
+}
+header div .contact .c{
+    font-size: 30px;
+    
+}
+header h4{
+    text-align: center;
+    margin-top: 70px;
+    color: #fff;
+} 
+header{
+    background-color: rgb(12, 27, 70) ;
+    height: 300px;
+}
+
+
+    
+
+   form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    height: 420px;
+    border-radius: 15px;
+
+    box-sizing: border-box;
+   } 
+   form h2{
+    text-align: center;
+   }
+   form input{
+    position: absolute;
+    outline: none;
+    border: none;
+    width: 250px;
+    height: 35px;
+    border-bottom: 2px solid #d7dfe4;
+    background: none;
+    padding: 5px;
+    color: #693535;
+   }
+   form .a{
+    left: 50px;
+   }
+   form .b{
+  top: 132px;
+    left: 50px;
+   }
+
+   form .c{
+      top: 198px;
+      left: 50px;
+
+   }
+   form .d{
+    top: 256px;
+    left: 50px;
+   }
+   form button{
+    margin-top:300px;
+    margin-left: 145px;
+    background-color: crimson;
+    width: 90px;
+    height: 30px;
+   }
+   form button:hover{
+    background-color: #262626;
+   }
